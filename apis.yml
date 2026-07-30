@@ -1,20 +1,78 @@
 aid: legion-studios
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/legion-studios.png
 name: Legion Studios
-description: Legion Studios is a company surfaced as a portfolio company of a16z and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Legion Studios is a name surfaced from the a16z public investment list and added to the API
+  Evangelist network as a portfolio lead. An enrichment pass on 2026-07-19 could not resolve the entity
+  to a verified corporate website, and found no developer portal, no API documentation, and no machine-readable
+  API surface of any kind to catalog. Multiple unrelated organizations operate under this name, so no
+  domain has been bound to this profile. The company remains a stub pending a confirmed identity.
 url: https://raw.githubusercontent.com/api-evangelist/legion-studios/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: unresolved-identity
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Venture Backed
+- Portfolio Lead
+- Unresolved Identity
+- No API Surface
+x-enrichment:
+  last_run: '2026-07-19'
+  result: no-api-surface
+  identity_resolved: false
+  notes: >-
+    The a16z investment list (https://a16z.com/investment-list/, HTTP 200) lists "Legion Studios" as a
+    name only, with no linked website, category, or vertical. No public funding announcement connecting
+    any company named Legion Studios to a16z or its SPEEDRUN program could be found. Candidate domains
+    were probed directly and none could be bound to the portfolio entry. No artifacts were generated:
+    with no verified host and no API, every artifact type in the enrichment contract (packages,
+    well-known, mcp, llms, overlays, conformance, errors, lifecycle, authentication, security, sandbox,
+    conventions, changelog, cli, components, data-model, asyncapi, skills) would have required
+    fabrication.
+  probes:
+  - url: https://a16z.com/investment-list/
+    status: 200
+    finding: Name listed under G-L with no URL, category, or vertical.
+  - url: https://www.legionstudio.dev/
+    status: 200
+    finding: >-
+      Independent game studio developing an unannounced first-person action-adventure RPG ("COVENANT").
+      Homepage and careers page name no investors and make no mention of a16z or SPEEDRUN. No developer
+      portal, no API, no documentation. Not bound to this profile - identity match unverified.
+  - url: https://legionstudios.com/
+    status: 200
+    finding: Parked GoDaddy for-sale listing (307 to forsale.godaddy.com). Not the company.
+  - url: https://legion.gg/
+    status: 301
+    finding: Redirects to americanlegion.gg (American Legion esports). Unrelated entity.
+  - url: https://legionstudios.ai/
+    status: 404
+    finding: No site.
+  - url: https://legionstudios.io/
+    status: 0
+    finding: DNS does not resolve (NXDOMAIN).
+  - url: https://legionstudios.gg/
+    status: 0
+    finding: DNS does not resolve (NXDOMAIN).
 apis: []
+common: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
