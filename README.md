@@ -64,12 +64,28 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Legion Studios is a name surfaced from the a16z public investment list and added to the API Evangelist network as a portfolio lead.
+Legion Studios is a name surfaced from the a16z public investment list and added to the API Evangelist network as a portfolio lead. An enrichment pass on 2026-07-19 could not resolve the entity to a verified corporate website, and found no developer portal, no API documentation, and no machine-readable API surface of any kind to catalog. Multiple unrelated organizations operate under this name, so no domain has been bound to this profile. The company remains a stub pending a confirmed identity.
 
-An enrichment pass on 2026-07-19 could not resolve the entity to a verified corporate website. The a16z investment list carries the name only — no linked site, category, or vertical — and no public funding announcement connects any company of that name to a16z or its SPEEDRUN program. Several unrelated organizations operate under the name, so no domain has been bound to this profile.
+**Areas:** Company · Unresolved Identity
 
-No developer portal, API documentation, or machine-readable API surface was found, so no enrichment artifacts were generated. Probe details are recorded under `x-enrichment` in `apis.yml`.
+## Legion Studios on APIs.io
 
-Backed by: a16z
+Everything profiled for Legion Studios is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/legion-studios/](https://apis.io/providers/legion-studios/)** — or go straight to one of the APIs or properties below.
 
-Status: stub — pending a confirmed identity.
+## API Evangelist rating
+
+**Unrated** — no public website could be reached for this company, so there was almost nothing to measure and nothing a reader could check.
+
+This is not a score of zero. No rating is published for this company. If that is wrong because something public exists that we missed, say so on this repository or email [info@apievangelist.com](mailto:info@apievangelist.com) and it will be re-run — free, and no justification needed.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Legion Studios: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/legion-studios/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
